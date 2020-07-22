@@ -1,5 +1,39 @@
 <!DOCTYPE html>
 <html>
+  <script>
+			var str = "AntiKevinsClub ";
+			
+			var counter = 0;
+			var inst = setInterval(change, 500);
+			var sln = str.length;
+			var yes = " ";
+			var penis = 0;
+			
+			function change() {
+
+				document.title = str +  "";
+				
+				 str = str[str.length - 1] + str.substring(0, str.length - 1);
+
+         if(penis == 0){
+					counter++;
+				}
+
+				if(penis == 1){
+					counter--;
+				}
+				
+        if(counter >= sln){
+					counter = sln;
+					penis = 1;
+				}
+
+				if(counter <= 0){
+					counter = 0;
+					penis = 0;
+				}
+			}
+</script>
   <head>
     <link href="favicon.ico" rel="icon">
     <link href="favicon.ico" rel="shortcut icon">
